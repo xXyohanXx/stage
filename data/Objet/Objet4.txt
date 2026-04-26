@@ -1,0 +1,4 @@
+petit bouclier
+armure
+defense
+3

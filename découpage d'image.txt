@@ -1,0 +1,16 @@
+
+
+
+imslice my_large_image.tif output_tiles --grid 1 remplacer_par_nb_ligne
+
+imslice decoupage/Tileset/Tilemap_color2.png output_tiles --grid 9 6
+
+python -m venv .env_virtuel
+
+source .env_virtuel/bin/activate
+
+pip install image-slicer
+
+pip install --upgrade pip
+
+imslice Ground/Tilemap_Elevation.png output_tiles/ --grid 4 8
